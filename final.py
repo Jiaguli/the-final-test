@@ -93,7 +93,7 @@ while int(n)!=11:
     elif n==9:
         m = int(input("輸入第一個數字："))
         n = int(input("輸入第二個數字:"))
-        print("最大公因數是: ", gdc(m, n))
+        print("最大公因數是: ", gcd(m, n))
         print("最小公倍數是: ", lcm(m, n))
 
 
